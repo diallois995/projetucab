@@ -84,7 +84,7 @@
 <section id="accu" class="accu">
   <div class="en">    
        
-            <marquee>  <h1 style="font-family: 'Merriweather',serif;">Bienvenu à  L'université Cheikh Ahmadou Bamba</h1> </marquee> 
+            <marquee>  <h1 style="font-family: 'Merriweather',serif;">Bienvenu à  L'université CHEIKH AHMADOU BAMBA</h1> </marquee> 
   
   </div>
      
