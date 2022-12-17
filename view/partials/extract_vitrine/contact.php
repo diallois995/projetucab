@@ -3,53 +3,14 @@
      <!-- ======= Footer ======= -->
 
 <!-- ======= Contact Section ======= -->
- <section id="contact" class="contact">
+ <section id="contact" class="contact" style="font-family: 'Merriweather',serif;">
 
   <!-- ======= UCAB Section ======= -->
-  <section id="clients" class="clients section-bg">
-      <div class="container">
-      <div class="section-title">
-      <h2>SAMANE CORPORATION NOS PARTENAIRES</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-       
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="public/images/logo.png" class="img-fluid" alt="">
-          </div>
-
-       
-       
-        </div>
-
-      </div>
-    </section>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>NOUS CONTACTEZ</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2 style="font-family: 'Merriweather',serif;">NOUS CONTACTER</h2>
+    
         </div>
 
         <div class="row">
@@ -58,20 +19,20 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Adresse:</h4>
+                <p>Dakar-Fass-Mbao</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>ucabfassmbao@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>TEL:</h4>
+                <p>+221338347446</p>
               </div>
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40
@@ -81,22 +42,22 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form" style="background-color:#096D1F";>
+              <div class="row" style="color:#fff";>
                 <div class="form-group col-md-6">
                   <label for="name">Votre Nom</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Votre Prénom</label>
+                  <label for="name" >Votre Prénom</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
-              <div class="form-group">
+              <div class="form-group" style="color:#fff";>
                 <label for="name">Votre E-mail</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
-              <div class="form-group">
+              <div class="form-group" style="color:#fff";>
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
@@ -105,7 +66,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Votre message est envoyer. Mérci!</div>
               </div>
-              <div class="text-center"><button type="submit">Envoyer</button></div>
+              <div class="text-center"><button type="submit" style="background-color:red"; >Envoyer</button></div>
             </form>
           </div>
 

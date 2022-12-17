@@ -10,7 +10,8 @@
  <?php
       require_once("view/partials/extract_vitrine/home.php");
  
- ?>
+      ?>
+     
   <!-- ======= Home Section ======= -->
 
 
@@ -45,21 +46,22 @@
      ?>
     <!-- ======= Centre Dk Section ======= -->
 
-   
     <!-- ======= Commentaire Section ======= -->
     <?php
         require_once("view/partials/extract_vitrine/commentaire.php");
      ?>
      <!-- ======= Commentaire Section ======= -->
-
+     <?php
+          require_once("view/partials/extract_vitrine/partenaire.php");
+     
+     ?>
 
     <!-- ======= Contact Section ======= -->
     <?php
         require_once("view/partials/extract_vitrine/contact.php");
      ?>
    <!-- ======= Contact Section ======= -->
-
-
+   
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

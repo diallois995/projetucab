@@ -5,13 +5,13 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <h4>S'inscrire</h4>
-        <p>UNIVERSITE
+        <!--<h4>S'inscrire</h4>-->
+        <!--<p>UNIVERSITE
           CHEIKH AKHMADOU
-          BAMBA</p>
-        <form action="" method="post">
+          BAMBA</p>-->
+        <!--<form action="" method="post">
           <input type="email" name="email"><input type="submit" value="Subscribe">
-        </form>
+        </form>-->
       </div>
     </div>
   </div>
@@ -32,31 +32,33 @@
         </p>
       </div>
 
-      <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Useful Links</h4>
+      <div class="col-lg-3 col-md-6 footer-links" style="font-family: 'Merriweather',serif;">
+        <h4 style="font-family: 'Merriweather',serif;">Menu</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">A propos</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Université</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Filiér</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Administration</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Nos partanair</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
+
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Our Services</h4>
+        <h4>Nos Services</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Comptable</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#">Administration</a></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Our Social Networks</h4>
-        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <h4 style="font-family: 'Merriweather',serif;">Réseau Sociaux</h4>
         <div class="social-links mt-3">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -79,7 +81,7 @@
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/UCAB-free-bootstrap-html-template-corporate/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+   
   </div>
 </div>
 </footer>
