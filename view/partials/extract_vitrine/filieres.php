@@ -19,7 +19,9 @@ Les enseignements ne pas sont évalués par les étudiants</p>
             <div class="icon-box">
               <div class="icon"><img src="public/images/IG.jpeg"> </div>
               <h5 style="font-family: 'Merriweather',serif;"> <a>Sciences Islamique et Technologies </a></h5>
-              <p>Mention: <strong>INFORMATIQUE DE GESTION </strong></p>
+              <p>Mention: <strong>INFORMATIQUE DE GESTION </strong> <br> 
+                
+            </p>
             </div>
           </div>
 

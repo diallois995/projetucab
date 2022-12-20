@@ -60,11 +60,11 @@
        
             <p>
             Le CECMEFP de Dakar offre des formations dans les domaines de l’électromécanique, 
-            de l’électrotechnique, de la bureautique et de l’informatique.
+            de la bureautique et de l’informatique.
           Le CESSEFP de Bambey développe des filières dans les secteurs l’élevage et l’agriculture.
             Le CESCEFP de Touba développe des filières dans le secteur tertiaire à travers la finance islamique 
             et l’enseignement général.
-            Le CESCEFP Faculté des Technologies Agroalimentaires & Sciences Economiques et Sociales
+            Le CESCEFP Saints-louis Faculté des Technologies Agroalimentaires & Sciences Economiques et Sociales
             </p>
           </div>
           <div class="col-lg-4 order-1 order-lg-2 "  id="im">
