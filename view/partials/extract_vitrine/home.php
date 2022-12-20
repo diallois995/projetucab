@@ -1,7 +1,7 @@
  <!-- ======= Home Section ======= -->
    <!-- ======= Header ======= -->
    <header id="header" class="fixed-top " style=" font-family: 'Merriweather',serif;">
-    <div class="container d-flex align-items-center">
+    <div class="container d-flex align-items-center" >
 
       <h1 class="logo me-auto"><a href="public/templates/templateVitrine/index.html"><img src="public/images/Logo.png" width="50vh"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
@@ -39,56 +39,123 @@
         <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
 
     </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+ <link rel=" https://github.com/animate-css/animate.css.git">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   </header><!-- End Header -->
 
+  <style type="text/css">
+   
+   *{
+    font-family: montserrat;
+   
 
+}
+.bg-light{
+    background-color: #096D1F;
 
-<style>
-  #header{
+}
+.carousel-item{
   background-color: #096D1F;
-  font-family: 'Merriweather',serif;
-  color: #fff;
-}
-#accu{
-  background-image: url("public/images/uc5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.en{
-
- margin-top: 40%;
-  font-family:monospace;
-  font-size: 100px;
-  margin: 100px;
-  background-color: darkgreen;
-  opacity: 0.5;;
-  color: #fff;
-  font-family: 'Merriweather',serif;
-}
-
-
-
-</style>
-      <!-- <div class="d-flex justify-content-center justify-content-lg-start">
-        <a href="#about" class="btn-get-started scrollto">Commencer</a>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle">
-
-        </i><span>Watch Video</span></a>
-      </div> -->
-        <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
-
-    </div>
-  </header><!-- End Header -->  
-<section id="accu" class="accu">
-  <div class="en">    
-       
-            <marquee>  <h1 style="font-family: 'Merriweather',serif;">Bienvenu à  L'université CHEIKH AHMADOU BAMBA</h1> </marquee> 
-  
-  </div>
-     
-  
+    height: 60%;
+    height: 600px;
+  }
+   .carousel-item img{
     
-</section>
-<!-- ======= Home Section ======= -->
+           width:100%;
+           height:100%;
+           animation: zoom 3s linear infinite;
+
+}
+
+.carousel-caption p{
+    width: 100%;
+    margin-left: top;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color:maroon;
+}
+.carousel-caption h1{
+    color:maroon;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: darkgreen;
+    padding: 10px 30px;
+    color: white;
+    margin-top: 15px,
+}
+        
+           </style>
+  </header>
+  <section >
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="public/images/ucab.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption ">
+        <h1 class="animated bounceInRight" style="animation-delay: 1s ">CENTRE DE DAKAR</h1>
+        <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">UFR des Sciences Islamique et 
+        Technologies.</p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#"> DAKAR</a></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <img src="public/images/touba/bactou.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption ">
+       <h1 class="animated bounceInRight" style="animation-delay: 1s ">CENTRE DE TOUBA</h1>
+        <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">UFR des Sciences Islamique</p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">TOUBA</a></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <img src="public/images/Bacstl(1).jpg" class="d-block w-100" alt="...">
+      
+      <div class="carousel-caption ">
+        <h1 class="animated bounceInRight" style="animation-delay: 1s ">UCAB DE SAIN-LOUIS
+</h1>
+        <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">Faculté des Technologies Agroalimentaires &
+         Sciences Economiques et Sociales</p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">SAIN-LOUIS</a></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <img src="public/images/Bambeye/ucabb.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption ">
+        <h1 class="animated bounceInRight" style="animation-delay: 1s ;">UCAB DE BAMBEYE</h1>
+        <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">Le CESSEFP de Bambey développe des filières
+         dans les secteurs l’élevage et l’agriculture..</p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">SAIN-LOUIS</a></p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </section>
+    <!-- ======= Home Section ======= -->
