@@ -1,6 +1,6 @@
  <!-- ======= Home Section ======= -->
    <!-- ======= Header ======= -->
-   <header id="header" class="fixed-top " style=" font-family: 'Merriweather',serif;gibackground-color: #096D1F; ">
+   <header id="header" class="fixed-top " style=" font-family: 'Merriweather',serif;background-color: #096D1F; ">
     <div class="container d-flex align-items-center" >
 
       <h1 class="logo me-auto"><a href="public/templates/templateVitrine/index.html"><img src="public/images/Logo.png" width="50vh"></a></h1>
