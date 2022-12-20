@@ -39,7 +39,7 @@
               <div class="icon"><ion-icon name="school-sharp"></ion-icon></div>
               <h4 style="font-family: 'Merriweather',serif;"><a href="public/templates/templateVitrine/centreStL.html">Centre de Saint-Louis</a></h4>
               <p>UFR des Sciences Islamique et Technologies
-              Le CESSEFP de Bambey développe des filières dans les secteurs l’élevage et l’agriculture.
+              Le CESCEFP Saints-louis Faculté des Technologies Agroalimentaires & Economiques.
               </p>
             </div>
           </div>
