@@ -17,7 +17,9 @@
             <div class="icon-box">
               <div class="icon"><ion-icon name="school-sharp"></ion-icon></div>
               <h4 style="font-family: 'Merriweather',serif;"><a href="public/templates/templateVitrine/centredk.html">Centre de Dakar</a></h4>
-              <p>UFR des Sciences Islamique et Technologies</p>
+              <p>  <strong>UFR des Sciences Islamique et Technologies</strong><br>
+              Le CECMEFP de Dakar offre des formations dans les domaines de L’électromécanique, 
+            Informatique de Gestion et Administration.</p>
             </div>
           </div>
 
@@ -25,7 +27,10 @@
             <div class="icon-box">
               <div class="icon"><ion-icon name="school-sharp"></ion-icon></div>
               <h4 style="font-family: 'Merriweather',serif;"><a href="public/templates/templateVitrine/centreTouba.html">Centre de Touba</a></h4>
-              <p>UFR des Sciences Islamique </p>
+              <p>e <strong>UFR des Sciences Islamiqu</strong><br>
+              Le CESCEFP de Touba développe des filières dans le secteur tertiaire à travers la finance islamique 
+            et l’enseignement général.
+            </p>
             </div>
           </div>
  
@@ -33,7 +38,9 @@
             <div class="icon-box">
               <div class="icon"><ion-icon name="school-sharp"></ion-icon></div>
               <h4 style="font-family: 'Merriweather',serif;"><a href="public/templates/templateVitrine/centreStL.html">Centre de Saint-Louis</a></h4>
-              <p>UFR des Sciences Islamique et Technologies</p>
+              <p>UFR des Sciences Islamique et Technologies
+              Le CESSEFP de Bambey développe des filières dans les secteurs l’élevage et l’agriculture.
+              </p>
             </div>
           </div>
 
@@ -41,7 +48,9 @@
             <div class="icon-box">
               <div class="icon"><ion-icon name="school-sharp"></ion-icon></div>
               <h4 style="font-family: 'Merriweather',serif;"><a href="public/templates/templateVitrine/centreBam.html">Centre de Bambeye</a></h4>
-              <p>UFR des Sciences Islamique et Agriculture</p>
+              <p><strong>UFR des Sciences Islamique et Agriculture</strong><br>
+              Le CESSEFP de Bambey développe des filières dans les secteurs l’élevage et l’agriculture.
+              </p>
             </div>
           </div>
 
