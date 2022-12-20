@@ -125,7 +125,7 @@
       </div>
     </div>
     <div class="carousel-item">
-    <img src="public/images/Bacstl(1).jpg" class="d-block w-100" alt="...">
+    <img src="public/images/Bacstl1.jpg" class="d-block w-100" alt="...">
       
       <div class="carousel-caption ">
         <h1 class="animated bounceInRight" style="animation-delay: 1s ">UCAB DE SAIN-LOUIS
