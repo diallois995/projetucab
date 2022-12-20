@@ -1,6 +1,6 @@
  <!-- ======= Home Section ======= -->
    <!-- ======= Header ======= -->
-   <header id="header" class="fixed-top " style=" font-family: 'Merriweather',serif;">
+   <header id="header" class="fixed-top " style=" font-family: 'Merriweather',serif;gibackground-color: #096D1F; ">
     <div class="container d-flex align-items-center" >
 
       <h1 class="logo me-auto"><a href="public/templates/templateVitrine/index.html"><img src="public/images/Logo.png" width="50vh"></a></h1>
@@ -63,7 +63,7 @@
 
 }
 .carousel-item{
-  background-color: #096D1F;
+  
     height: 60%;
     height: 600px;
   }
@@ -136,10 +136,10 @@
     <div class="carousel-item">
     <img src="public/images/Bambeye/ucabb.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption ">
-        <h1 class="animated bounceInRight" style="animation-delay: 1s ;">UCAB DE BAMBEYE</h1>
+        <h1 class="animated bounceInRight" style="animation-delay: 1s ;">UCAB DE BAMBEY</h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">Le CESSEFP de Bambey développe des filières
          dans les secteurs l’élevage et l’agriculture..</p>
-        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">SAIN-LOUIS</a></p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">BAMBEY</a></p>
       </div>
     </div>
   </div>
