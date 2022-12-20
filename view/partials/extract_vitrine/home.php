@@ -111,7 +111,8 @@
         <h1 class="animated bounceInRight" style="animation-delay: 1s ">CENTRE DE DAKAR</h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">UFR des Sciences Islamique et 
         Technologies.</p>
-        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#"> DAKAR</a></p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s">
+        <a href="public/templates/templateVitrine/centredk.html"> DAKAR</a></p>
       </div>
     </div>
     <div class="carousel-item">
@@ -119,7 +120,8 @@
       <div class="carousel-caption ">
        <h1 class="animated bounceInRight" style="animation-delay: 1s ">CENTRE DE TOUBA</h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">UFR des Sciences Islamique</p>
-        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">TOUBA</a></p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s">
+        <a href="public/templates/templateVitrine/centreTouba.html">TOUBA</a></p>
       </div>
     </div>
     <div class="carousel-item">
@@ -130,7 +132,8 @@
 </h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">Faculté des Technologies Agroalimentaires &
          Sciences Economiques et Sociales</p>
-        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">SAIN-LOUIS</a></p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s">
+        <a href="public/templates/templateVitrine/centreStL.html">SAIN-LOUIS</a></p>
       </div>
     </div>
     <div class="carousel-item">
@@ -139,7 +142,8 @@
         <h1 class="animated bounceInRight" style="animation-delay: 1s ;">UCAB DE BAMBEY</h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">Le CESSEFP de Bambey développe des filières
          dans les secteurs l’élevage et l’agriculture..</p>
-        <p  class="animated bounceInRight" style="animation-delay: 3s"><a href="#">BAMBEY</a></p>
+        <p  class="animated bounceInRight" style="animation-delay: 3s">
+        <a href="public/templates/templateVitrine/centreBam.html">BAMBEY</a></p>
       </div>
     </div>
   </div>
