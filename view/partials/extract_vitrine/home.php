@@ -106,7 +106,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="public/images/ucab.jpg" class="d-block w-100" alt="...">
+      <img src="public/images/uc5.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption ">
         <h1 class="animated bounceInRight" style="animation-delay: 1s ">CENTRE DE DAKAR</h1>
         <p  class="animated bounceInRight d-none d-md-block" style="animation-delay: 2s">UFR des Sciences Islamique et 
