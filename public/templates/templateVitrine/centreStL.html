@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html lang="en">
     <!DOCTYPE html>
@@ -117,8 +115,6 @@
     <style>
 
         #header{
-          background-size: cover;
-          background-color: #096D1F;
           font-family: 'Merriweather',serif;
           color: #fff;
         }
@@ -128,11 +124,48 @@
 
 <style>
 
-#hero{
-  background-size: cover;
-background-image: url("../../images/Bacstl.jpg");
 
-}
+.banner{
+        width:100%;
+        height:100vh;
+        position: relative;
+        overflow:hidden;
+
+      }
+      .slider{
+        width:100%;
+        height:100vh;
+        position: absolute;
+        top:0;
+      }
+      .slideImg{
+           width:100%;
+           height:100%;
+          }
+           .overlay{
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(1, 104, 36, 0.7),rgba(1, 104, 36, 0.7));
+        position: absolute;
+        top:0;
+        opacity: 0.7;
+
+      }
+      .contents{
+        width:60%;
+        margin:160px auto 0;
+        text-align:center;
+        color:#fff;
+      }
+      .contents h1{
+        font-size:60px;
+      }
+      .contents h3{
+        font-size:20px;
+        
+        
+        
+      }
 </style>
       <!-- <div class="d-flex justify-content-center justify-content-lg-start">
         <a href="#about" class="btn-get-started scrollto">Commencer</a>
@@ -143,9 +176,16 @@ background-image: url("../../images/Bacstl.jpg");
         <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
 
   <section class id="hero">
-<h1 class="te">Centre Mame Mor Diarra</h1>
+    <div class="banner">
+      <div class="slider">
+         <img src="../../images/Saint-Louis/bacg.jpg"style=" width: 100%; " id="slideImg">
+      </div>
+      <div class="overlay">
+    <div class="contents">
+  
     </div>
-    
+      </div>
+    </div>
   </section>
   </section>
  <!-- End Header -->
@@ -160,10 +200,11 @@ background-image: url("../../images/Bacstl.jpg");
                 <div class=>
                   <div class=>
      <h1 class=" text-white text-center" style="background-color: #096D1F; font-family: 'Merriweather',serif;">
-      Centre Mame Mor Diarra</h1>
+      Centre Mame Mor Diarra</h1><br>
      <p  class="  text-center" style="font-family: 'Merriweather',serif;">
+      Le CECMEFP de Saint-Louis offre des formations dans les domaines de l'agro-Alimentaire,<br>
       Les laboratoires dont dispose le Centre de Saint-Louis  sont sous équipés.<br>
-      L’université doit faire un effort 
+      L’université doit faire un effort <br>
      en équipements scientifiques spécialisés afin de démarrer ses formations en l'agro-Alimentaire & Economiques.
                          
      </p>              
@@ -171,9 +212,12 @@ background-image: url("../../images/Bacstl.jpg");
   
     </section>             
  <article id="Filiére">
-     <h2 style="font-family: 'Merriweather',serif;text-align: center;" style="background-color: #fff; color: #096D1F">Filiére</h2>
+     <h2 style="font-family: 'Merriweather',serif;text-align: center;" >
+      <button type="button" class="btn " style="background-color: #096D1F; color: #fff ">Filiére</button>
+    </h2>
+    <h2 style="font-family: 'Merriweather',serif;text-align: center;" >  l'agro-Alimentaire & Economiques.</h2>
+
      <p>
-      Le CECMEFP de Saint-Louis offre des formations dans les domaines de l'agro-Alimentaire,
      </p>
 <div class="slideshow">
 <div class="slide-wrapper">
@@ -181,13 +225,13 @@ background-image: url("../../images/Bacstl.jpg");
   <img src="../../images/Saint-Louis/fir.jpg" alt="" >
 </div>
 <div class="image-container">
-  <img src="../../images/Saint-Louis/gp.jpg" alt="" >
+  <img src="../../images/Saint-Louis/ucabs.jpg" alt="" >
 </div>
 <div class="image-container">
-  <img src="../../images/Saint-Louis/IMG-20221128-WA0042.jpg" alt="" >
+  <img src="../../images/Saint-Louis/spratique.jpg" alt="" >
 </div>
 <div class="image-container">
-  <img src="../../images/Saint-Louis/fir.jpg" alt="" >
+  <img src="../../images/Saint-Louis/para.jpg" alt="" >
 </div>
 
 </div>
@@ -195,7 +239,7 @@ background-image: url("../../images/Bacstl.jpg");
 </article>
 <br>
 <section id="Administration">
-<h1 style="text-align: center; background-color: #096D1F;;  color: #fff;">Administration</h1>
+<h1 style="text-align: center; background-color: #096D1F;;  color: #fff; font-family: 'Merriweather',serif;" >Administration</h1>
 <div class="achievements">
   <div class="work">
     
@@ -218,11 +262,13 @@ background-image: url("../../images/Bacstl.jpg");
 </section>
             </div>
             </div>
+<h1 style="text-align: center; background-color: #096D1F;;  color: #fff; font-family: 'Merriweather',serif;">GALERIE IMAGES</h1>
+<br><br>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       <div class="col" >
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/MIG.jpg"width="400px" height="350px">
-          <title>Promos 2022</title>
+          <img src="../../images/Saint-Louis/stl.jpg"width="400px" height="350px">
+          <title>Les Etudiants</title>
         <rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
             Agro-Alimentaire
           </text></svg>
@@ -234,158 +280,109 @@ background-image: url("../../images/Bacstl.jpg");
                     <button type="button" class="btn btn-danger ">Voir</button>
                     <button type="button" class="btn btn-danger ">Edit</button>
                 </div>
-                <small class="text-muted">9-10-2018</small>
+                <small class="text-muted">9-10-2020</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/affche.jpg"width="400px" height="350px"><title>Promos 2022
+            <img src="../../images/Saint-Louis/IMG-20221128-WA0042.jpg"width="400px" height="350px">
+          <title>Entre
 
         </title><rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
-            INFORMATIQUE DE GESTION
+          Centre Saint-Louis
           </text></svg>
 
             <div class="card-body">
-              <p class="card-text">Les etudiants en'informatique de gestion</p>
+              <p class="card-text">UCAB Saint-Louis</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                     <button type="button" class="btn btn-danger ">Voir</button>
                     <button type="button" class="btn btn-danger ">Edit</button>
                 </div>
-                <small class="text-muted">9-10-2018</small>
+                <small class="text-muted">9-10-2012</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/12.jpg"width="400px" height="350px">
-          <title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/>
-          <text x="50%" y="50%" fill="#eceeef" dy=".3em"> INFORMATIQUE DE GESTION</text></svg>
+            <img src="../../images/Saint-Louis/IMG-20221128-WA0047.jpg"width="400px" height="350px">
+          <title>Entre</title><rect width="100%" height="100%" fill="#55595c"/>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">US</text></svg>
 
 <div class="card-body">
-  <p class="card-text">Les etudiants de l'informatique dejestion</p>
+  <p class="card-text">Université Cheikh Ahmadou Bamba</p>
   <div class="d-flex justify-content-between align-items-center">
     <div class="btn-group">
       <button type="button" class="btn btn-danger ">Voir</button>
       <button type="button" class="btn btn-danger ">Edit</button>
     </div>
-    <small class="text-muted">9 mins</small>
+    <small class="text-muted">10/12/2022</small>
   </div>
 </div>
 </div>
         </div>
-        <div class="col">
+        <div class="col" >
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/ELM.jpeg"width="400px" height="350px"><title>Publicite</title>
-          <rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
-           ELECTROMECANIQUE</text></svg>
+          <img src="../../images/Saint-Louis/dabo.jpg"width="400px" height="350px">
+          <title>Les Etudiants</title>
+        <rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
+            Agro-Alimentaire
+          </text></svg>
 
             <div class="card-body">
-              <p class="card-text">Les etudiants de l'informatique dejestion</p>
+              <p class="card-text">Directeur de Center</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-danger ">Voir</button>
-                  <button type="button" class="btn btn-danger ">Edit</button>
+                    <button type="button" class="btn btn-danger ">Voir</button>
+                    <button type="button" class="btn btn-danger ">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">9-10-2020</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/elemm.jpg"width="400px" height="350px"><title>Publicite</title>
-          <rect width="100%" height="100%" fill="#55595c"/>
-          <text x="50%" y="50%" fill="#eceeef" dy=".3em">ELECTROMECANIQUE</text></svg>
+            <img src="../../images/Saint-Louis/para.jpg"width="400px" height="350px">
+          <title>Entre
+
+        </title><rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
+          Centre Saint-Louis
+          </text></svg>
 
             <div class="card-body">
-              <p class="card-text">Les etudiants de l'informatique dejestion</p>
+              <p class="card-text">UCAB Saint-Louis</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-danger ">Voir</button>
-                  <button type="button" class="btn btn-danger ">Edit</button>
+                    <button type="button" class="btn btn-danger ">Voir</button>
+                    <button type="button" class="btn btn-danger ">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">9-10-2012</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-          <img src="../../images/afiche.jpg"width="400px" height="350px"><title>Publicite</title>
-          <rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
-            ELECTROMECANIQUE</text></svg>
+            <img src="../../images/Saint-Louis/sene.jpg"width="400px" height="350px">
+          <title>Entre</title><rect width="100%" height="100%" fill="#55595c"/>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">EQUIPES</text></svg>
 
-            <div class="card-body">
-              <p class="card-text">Les etudiants de l'informatique dejestion</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-danger ">Voir</button>
-                  <button type="button" class="btn btn-danger ">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
+<div class="card-body">
+  <p class="card-text">Université Cheikh Ahmadou Bamba</p>
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="btn-group">
+      <button type="button" class="btn btn-danger ">Voir</button>
+      <button type="button" class="btn btn-danger ">Edit</button>
+    </div>
+    <small class="text-muted">10/12/2022</small>
+  </div>
+</div>
+</div>
         </div>
-       
-          
-          <div class="col">
-            <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-            <img src="../../images/ELM.jpeg"width="400px" height="350px"><title>Publicite</title>
-            <rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                ADMINISTRATION</text></svg>
-              <div class="card-body">
-                <p class="card-text">Les etudiants de l'informatique dejestion</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-danger ">Voir</button>
-                    <button type="button" class="btn btn-danger ">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-            <img src="../../images/elemm.jpg"width="400px" height="350px"><title>Publicite</title>
-            <rect width="100%" height="100%" fill="#55595c"/>
-            <text x="50%" y="50%" fill="#eceeef" dy=".3em">ADMINISTRATION</text></svg>
-  
-              <div class="card-body">
-                <p class="card-text">Les etudiants de l'informatique dejestion</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-danger ">Voir</button>
-                    <button type="button" class="btn btn-danger ">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-            <img src="../../images/ale2.jpg"width="400px" height="350px"><title>Publicite</title>
-            <rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                ADMINISTRATION</text></svg>
-  
-              <div class="card-body">
-                <p class="card-text">Les etudiants de l'informatique dejestion</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-danger ">Voir</button>
-                    <button type="button" class="btn btn-danger ">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
       </div>
     </div>
   </div>

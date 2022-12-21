@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html lang="en">
     <!DOCTYPE html>
@@ -47,10 +45,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
-
-    
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +64,16 @@
           font-size: 3.5rem;
         }
       }
-    </style>
+      .te{
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+      }
+                </style>
 
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
@@ -81,21 +85,22 @@
         <ul>            
          <li><a class="nav-link scrollto active" href="../../../index.php">Accueil</a></li>
           <li><a class="nav-link scrollto" href="../../../index.php">A propos</a></li> 
-          <li class="dropdown"><a href="#"><span>Université</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="../../../index.php"><span>Université</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
         <ul style="background-color: #096D1F; color: #fff">
-          <li class="dropdown"><a href="#" style="background-color: #096D1F; color: #fff"><span>Nos Centres</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="../../../index.php" style="background-color: #096D1F; color: #fff"><span>Nos Centres</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul style="background-color: #096D1F; color: #fff">
-            <li><a href="centredk.html">Centre de Dakar</a></li>
-              <li><a href="centreStL.html">Centre Saint-Louis</a></li>
+    
+              <li><a href="centreTouba.html">Centre de Touba</a></li>
+              <li><a href="centreStL.html">Centre Dakar</a></li>
               <li><a href="centreBam.html">Centre Bambeye</a></li>
             </ul>
           </li>
          
         </ul>
-          <li><a href="../../../index.php"><span>Filiére</a>
+          <li><a href="#Filiére"><span>Filiére</a>
            
-          <li><a class="nav-link scrollto" href="../../../index.php">Administration</a></li>
-         <!--<li><a href="album/index.html.php">Blog</a></li>-->
+        <li><a class="nav-link scrollto" href="#Administration">Administration</a></li>
+          <!--<li><a href="album/index.html.php">Blog</a></li>-->
           <li><a class="nav-link scrollto" href="../../../index.php">Contact</a></li>
                 <i class="bi bi-Search"></i>
 
@@ -108,24 +113,59 @@
   </head>
   <body>
     <style>
-    #header{
-        background-size: cover;
-        background-color: #096D1F;
-        font-family: 'Merriweather',serif;
-        color: #fff;
-      }
-    </style>
+
+        #header{
+          font-family: 'Merriweather',serif;
+          color: #fff;
+        }
+        </style>
  <section id="hero">
 
 
 <style>
 
 
-#hero{
-  background-size: cover;
-background-image: url("../../images/touba/bactou.jpg");
+.banner{
+        width:100%;
+        height:100vh;
+        position: relative;
+        overflow:hidden;
 
-}
+      }
+      .slider{
+        width:100%;
+        height:100vh;
+        position: absolute;
+        top:0;
+      }
+      .slideImg{
+           width:100%;
+           height:100%;
+          }
+           .overlay{
+        width:100%;
+        height:100vh;
+        background:linear-gradient(rgba(1, 104, 36, 0.7),rgba(1, 104, 36, 0.7));
+        position: absolute;
+        top:0;
+        opacity: 0.7;
+
+      }
+      .contents{
+        width:60%;
+        margin:160px auto 0;
+        text-align:center;
+        color:#fff;
+      }
+      .contents h1{
+        font-size:60px;
+      }
+      .contents h3{
+        font-size:20px;
+        
+        
+        
+      }
 </style>
       <!-- <div class="d-flex justify-content-center justify-content-lg-start">
         <a href="#about" class="btn-get-started scrollto">Commencer</a>
@@ -135,247 +175,330 @@ background-image: url("../../images/touba/bactou.jpg");
       </div> -->
         <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
 
+  <section class id="hero">
+    <div class="banner">
+      <div class="slider">
+         <img src="../../images/touba/bactou.jpg"style=" width: 100%; " id="slideImg">
+      </div>
+      <div class="overlay">
+    <div class="contents">
+  
+    </div>
+      </div>
+    </div>
+  </section>
+  </section>
  <!-- End Header -->
-</section>
+
 <!-- ======= Home Section ======= -->
 
 <main>
-
-
-
-    <div class="album py-5 bg-light">
+    <section>
+      <div class="album py-5 bg-light">
         <div class="container">
             <div class="row py-lg-6">
                 <div class=>
                   <div class=>
-                     <marquee> <h1 class=" text-white text-center" style="background-color:
-                       hsl(355, 83%, 35%); font-family: 'Merriweather',serif;">CENTRE DE TOUBA</h1></marquee>
-                      <h5  class="  text-center" style="font-family: 'Merriweather',serif;">
-                        Le CESCEFP de Touba développe des filières dans le secteur
-                        <br> tertiaire à travers la finance islamique et l’enseignement général.
-                          </h5>
-                    
-                      </div>
-          
-               
-                </div>
-                </div>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col" >
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/images.jpeg"width="400px" height="350px">
-              <title>Promos 2022</title>
-            <rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
-                Premiér Promos
-              </text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">finance islamique et l’enseignement général.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                    </div>
-                    <small class="text-muted">9-10-2018</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/l2.jpg"width="400px" height="350px"><title>Promos 2022
-    
-            </title><rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
-                Université Touba
-              </text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">finance islamique et l’enseignement général.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                    </div>
-                    <small class="text-muted">9-10-2018</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/l1.jpg"width="400px" height="350px"><title>Publicite
-
-              </title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                Université Touba</text></svg>
-    
-    <div class="card-body">
-      <p class="card-text">finance islamique et l’enseignement général.</p>
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="btn-group">
-          <button type="button" class="btn btn-danger ">Voir</button>
-          <button type="button" class="btn btn-danger ">Edit</button>
-        </div>
-        <small class="text-muted">9 mins</small>
+     <h1 class=" text-white text-center" style="background-color: #096D1F; font-family: 'Merriweather',serif;">
+      Centre De Touba</h1><br>
+     <p  class="  text-center" style="font-family: 'Merriweather',serif;">
+      Le CECMEFP de Touba offre des formations dans les domaines de l'agro-Alimentaire,<br>
+      Les laboratoires dont dispose le Centre de Saint-Louis  sont sous équipés.<br>
+      L’université doit faire un effort <br>
+     en équipements scientifiques spécialisés afin de démarrer ses formations en finance islamique et l’enseignement général.
+                         
+     </p>              
       </div>
-    </div>
-    </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/l3.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+  
+    </section>             
+ <article id="Filiére">
+     <h2 style="font-family: 'Merriweather',serif;text-align: center;" >
+      <button type="button" class="btn " style="background-color: #096D1F; color: #fff ">Filiére</button>
+    </h2>
+    <h2 style="font-family: 'Merriweather',serif;text-align: center;" >  <h5  class="  text-center" style="font-family: 'Merriweather',serif;">
+      Le CESCEFP de Touba développe des filières dans le secteur
+      <br> tertiaire à travers la finance islamique et l’enseignement général.
+        </h5></h2>
+
+     <p>
+     </p>
+<div class="slideshow">
+<div class="slide-wrapper">
+<div class="image-container">  
+  <img src="../../images/touba/images.jpeg" alt="" >
+</div>
+<div class="image-container">
+  <img src="../../images/touba/IMG-20221128-WA0004.jpg" alt="" >
+</div>
+<div class="image-container">
+  <img src="../../images/touba/IMG-20221128-WA0012.jpg" alt="" >
+</div>
+<div class="image-container">
+  <img src="../../images/touba/IMG-20221128-WA0008.jpg" alt="" >
+</div>
+
+</div>
+</div>
+</article>
+<br>
+<section id="Administration">
+<h1 style="text-align: center; background-color: #096D1F;;  color: #fff; font-family: 'Merriweather',serif;" >Administration</h1>
+<div class="achievements">
+  <div class="work">
     
-                <div class="card-body">
-                  <p class="card-text">finance islamique et l’enseignement général.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-danger ">Voir</button>
-                      <button type="button" class="btn btn-danger ">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
+    <img id="circle" src="../../images/Saint-Louis/diop.jpg" alt="" >
+    <p class="work-heading">Djibril Diop</p>
+    <p class="work-text">Directeur de Scolarité </p>
+  </div>
+  <div class="work">
+    <img id="circle" src="../../images/Saint-Louis/sene.jpg" alt="" >
+    <p class="work-heading">Mr Ablaye Sene</p>
+    <p class="work-text">Directeur des études</p>
+  </div>
+ 
+  <div class="work">
+   <img id="circle" src="../../images/Saint-Louis/dabo.jpg" alt="" >
+    <p class="work-heading">Aboubacar Dabo</p>
+    <p class="work-text">Directeur de Center</p>
+  </div>
+</div>
+</section>
             </div>
-            <div class="col">
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/IMG-20221128-WA0003.jpg"width="400px" height="350px"><title>Publicite</title>
-              <rect width="100%" height="100%" fill="#55595c"/>
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">finance islamique et l’enseignement général.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-danger ">Voir</button>
-                      <button type="button" class="btn btn-danger ">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col">
-              <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-              <img src="../../images/touba/IMG-20221128-WA0004.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-    
-                <div class="card-body">
-                  <p class="card-text">finance islamique et l’enseignement général.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-danger ">Voir</button>
-                      <button type="button" class="btn btn-danger ">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0005.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0007.jpg"width="400px" height="350px"><title>Publicite</title>
-                <rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0010.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+<br><br>
+<div class="album py-5 bg-light">
+  <div class="container">
+      <div class="row py-lg-6">
+          <div class=>
+            <div class=>
+               <marquee> <h1 class=" text-white text-center" style="background-color:
+                 hsl(355, 83%, 35%); font-family: 'Merriweather',serif;">GALERIE IMAGES</h1></marquee>
+               
               
-              <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0016.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
                 </div>
+    
+         
+          </div>
+          </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col" >
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/images.jpeg"width="400px" height="350px">
+        <title>Promos 2022</title>
+      <rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
+          Premiér Promos
+        </text></svg>
+
+          <div class="card-body">
+            <p class="card-text">finance islamique et l’enseignement général.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
               </div>
-              <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0009.jpg"width="400px" height="350px"><title>Publicite</title>
-                <rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
-                <img src="../../images/touba/IMG-20221128-WA0013.jpg"width="400px" height="350px">
-                <title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
-      
-                  <div class="card-body">
-                    <p class="card-text">finance islamique et l’enseignement général.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-danger ">Voir</button>
-                        <button type="button" class="btn btn-danger ">Edit</button>
-                      </div>
-                      <small class="text-muted">9 mins</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <small class="text-muted">9-10-2018</small>
+            </div>
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/l2.jpg"width="400px" height="350px"><title>Promos 2022
+
+      </title><rect width="100%" height="100%" fill="#55595c"/><text x="100%" y="100%" fill="#eceeef" dy=".3em">
+          Université Touba
+        </text></svg>
+
+          <div class="card-body">
+            <p class="card-text">finance islamique et l’enseignement général.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+              </div>
+              <small class="text-muted">9-10-2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/l1.jpg"width="400px" height="350px"><title>Publicite
+
+        </title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+          Université Touba</text></svg>
+
+<div class="card-body">
+<p class="card-text">finance islamique et l’enseignement général.</p>
+<div class="d-flex justify-content-between align-items-center">
+  <div class="btn-group">
+    <button type="button" class="btn btn-danger ">Voir</button>
+    <button type="button" class="btn btn-danger ">Edit</button>
+  </div>
+  <small class="text-muted">9 mins</small>
+</div>
+</div>
+</div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/l3.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+          <div class="card-body">
+            <p class="card-text">finance islamique et l’enseignement général.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger ">Voir</button>
+                <button type="button" class="btn btn-danger ">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/IMG-20221128-WA0003.jpg"width="400px" height="350px"><title>Publicite</title>
+        <rect width="100%" height="100%" fill="#55595c"/>
+        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+          <div class="card-body">
+            <p class="card-text">finance islamique et l’enseignement général.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger ">Voir</button>
+                <button type="button" class="btn btn-danger ">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+        <img src="../../images/touba/IMG-20221128-WA0004.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+          <div class="card-body">
+            <p class="card-text">finance islamique et l’enseignement général.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-danger ">Voir</button>
+                <button type="button" class="btn btn-danger ">Edit</button>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0005.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0007.jpg"width="400px" height="350px"><title>Publicite</title>
+          <rect width="100%" height="100%" fill="#55595c"/>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0010.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0016.jpg"width="400px" height="350px"><title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0009.jpg"width="400px" height="350px"><title>Publicite</title>
+          <rect width="100%" height="100%" fill="#55595c"/>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" style="background-color: #fff; color: #096D1F; font-family: 'Merriweather',serif;">
+          <img src="../../images/touba/IMG-20221128-WA0013.jpg"width="400px" height="350px">
+          <title>Publicite</title><rect width="100%" height="100%" fill="#55595c"/>
+          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Université Touba</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">finance islamique et l’enseignement général.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger ">Voir</button>
+                  <button type="button" class="btn btn-danger ">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
 
 </main>
 
@@ -401,7 +524,7 @@ background-image: url("../../images/touba/bactou.jpg");
 
  
 
-    <footer id="footer" style="background-color: #096D1F; color: #fff">
+   <footer id="footer" style="background-color: #096D1F; color: #fff">
 
       <div class="footer-newsletter">
         <div class="container">
@@ -469,7 +592,213 @@ background-image: url("../../images/touba/bactou.jpg");
           </div>
       
       </footer>
+
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+    
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    
+    .header .logo img {
+      width: 80px;
+      height: 70px;
+      margin-left: 90%;
+    
+    }
+    
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+    
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+    
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 520px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 2%, rgba(0, 0, 0, 0.5) 100%), url("assets/img/fa.jfif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 30px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+    
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+    
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+    
+    #circle {
+      position: relative;
+      background-color: #09f;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 200px;
+    }
+    
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+    
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+    
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+    
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    
+    
+    .about-me-text{
+      font-size: 16px;
+      color: #585858;
+      margin-top: -15% ;
+    }
+    
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+    
+    .footer .copy {
+      color: #fff;
+    }
+    
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+    
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+    
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+    
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+    .slideshow {
+    overflow: hidden;
+    height: 500px;
+    width: 728px;
+    margin: 0 auto;
+    }
+    .slide-wrapper {
+    width: 3000px;
+    animation: slide 18s infinite;
+    }
+    .image-container{
+    margin-top: 50px;
+    float: left;
+    height: 500px;
+    width: 728px;
+    }
+    .image-container:nth-child(1) {
+    background-image: url("") ;
+    }
+    .image-container:nth-child(2) {
+    background-image: url("assets/img/5.jfif") ;
+    }
+    .image-container:nth-child(3) {
+    background-image: url("assets/img/7.jfif") ;
+    }
+    .image-container:nth-child(4) {
+    background-image: url("assets/img/4.jfif") ;
+    }
+    @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+    }
+    </style>
+    <body>
          <!-- ======= UCAB Section ======= -->
-     <!-- ======= UCAB Section ======= --
-
-
