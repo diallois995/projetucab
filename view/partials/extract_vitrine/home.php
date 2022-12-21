@@ -26,7 +26,7 @@
         </ul>
           <li><a href="#portfolio">Filiére</a></li>
            
-          <!--<li><a class="nav-link scrollto" href="#team">Administration</a></li>-->
+          <li><a class="nav-link scrollto" href="#team">Administration</a></li>
           <li><a href="#clients">Partenaire</a></li>
           <!--<li><a href="Public/Templates/templateVitrine/album/index.html.php">Blog</a></li>-->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
